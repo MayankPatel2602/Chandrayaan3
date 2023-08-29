@@ -129,7 +129,7 @@ class SpacecraftNavigator:
         return (x, y, z), direction
 
     def main(self):
-        commands = input("Enter commands (e.g., fbu): ")
+        commands = input("Enter commands : ")
         initial_position = tuple(map(int, input("Enter initial position (x y z): ").split()))
         initial_direction = input("Enter initial direction (N, S, E, W, U, D): ")
 
